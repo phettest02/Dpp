@@ -15,14 +15,15 @@ Thanks to @Alfathdirk @TCR_TEAM\n\
 | Change it to your authToken / your email & password
 */
 const auth = {
-	authToken: '',
-	certificate: '',
+	authToken: 'EmL882UGnSJ9HJ0b8BF5.lOOarxPpAG43SXqgcCX6Lq.GgkkEFYVbT/pP/ciSuTCYX1wr5DB5tDhcRhKWOAefkI=',
+	certificate: '34f55a0bb49e271e0ee32d502f86f3750e28c8b61ec0ddd33f2809112c4f9108',
 	email: '',
 	password: ''
 }
 
-let client =  new LineConnect();
-//let client =  new LineConnect(auth);
+//let client =  new LineConnect();
+let client =  new LineConnect(auth);
+
 
 client.startx().then(async (res) => {
 	while(true) {
