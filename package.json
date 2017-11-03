@@ -4,8 +4,11 @@
   "description": "LINE",
   "main": "./src/main.js",
   "scripts": {
-    "start": "npm run startx",
-    "startx": "node ./src/bot.js"
+    "start": "npm run bot | npm run bot1 | npm run bot2 | npm run bot3",
+    "bot": "node ./src/bot.js",
+    "bot1": "node ./src/bot1.js",
+    "bot2": "node ./src/bot2.js",
+    "bot3": "node ./src/bot3.js"
   },
   "repository": {
     "type": "git",
